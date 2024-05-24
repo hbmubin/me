@@ -392,16 +392,20 @@ nav {
   .projectDescription p {
     display: none !important;
     width: 0 !important;
+    padding-left: 1rem;
   }
   .projectDescription h2 {
     font-size: 2rem;
+    margin-left: 1rem;
   }
   .projectDescription h3 {
     font-size: 0.9rem;
     margin-top: 0.6rem;
+    margin-left: 1rem;
   }
   .projectLink a {
     font-size: 0.9rem;
+    margin-left: 1rem;
   }
   .projectsLink,
   .technologiesLink {
