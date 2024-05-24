@@ -122,7 +122,7 @@ nav {
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.315);
 }
 .aboutImageMask img {
-  transform: scale(1.4) translateX(10%);
+  transform: scale(1.2) translateX(0%);
 }
 .aboutContainer h2 {
   font-size: 2.6rem;
@@ -359,25 +359,29 @@ nav {
 @media (max-width: 678px) {
   .headerContainer {
     max-width: 30rem;
+    padding-left: 1rem;
   }
   .aboutContainer {
     max-width: 500px;
+    padding: 0 1rem;
   }
   .aboutContainer h2 {
     font-size: 2rem;
-
   }
   .technologiesContainer {
     max-width: 460px;
+    padding: 0 1rem;
   }
   .technologiesTitle {
     font-size: 2rem;
+    margin-top: 2rem;
   }
   .iconMask {
     margin: 0.6rem 1.6rem;
   }
   .projectContainer {
     max-width: 500px;
+    padding: 0 1rem;
   }
   .projectTitle h2 {
     font-size: 2rem;
@@ -386,17 +390,22 @@ nav {
     padding: 1rem 0;
   }
   .projectDescription p {
-    display: none;
+    display: none !important;
+    width: 0 !important;
   }
   .projectDescription h2 {
     font-size: 2rem;
   }
   .projectDescription h3 {
-font-size: .9rem;
-margin-top: .6rem;
+    font-size: 0.9rem;
+    margin-top: 0.6rem;
   }
   .projectLink a {
-font-size: .9rem;
+    font-size: 0.9rem;
+  }
+  .projectsLink,
+  .technologiesLink {
+    display: none;
   }
 }
 /* RESPONSIVE END */
