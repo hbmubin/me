@@ -3,12 +3,16 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./asset/image/H.png" type="image/x-icon" />
     <title>HB Mubin</title>
     <!-- BOXICON -->
     <link
       href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
       rel="stylesheet"
     />
+    <!-- TAILWIND CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
     <!-- CSS FILE -->
     <link rel="stylesheet" href="./asset/css/style.css" />
   </head>
@@ -27,13 +31,8 @@
               </li>
               <li><a class="projectsLink" href="#projects">Project</a></li>
               <li>
-                <a
-                  class="contactLink"
-                  href="mailto:hasanulbannamubin01@gmail.com"
-                  >Contact</a
-                >
+                <a class="contactLink">Contact</a>
               </li>
-              <!-- <a href="mailto:EMAILADDRESS"></a> -->
             </ul>
           </div>
         </nav>
@@ -55,10 +54,15 @@
           experience in building dynamic web applications. Proficient in
           MongoDB, Express.js, React.js, and Node.js, I excel in developing full
           stack applications and optimizing performance. Passionate about clean
-          code and continuous learning, I deliver high-quality software
+          code and continuous learning, I deLive Linkr high-quality software
           solutions.
         </p>
-        <div class="aboutLink">
+        <div>
+          <a href="./asset/Hasanul banna mubin (1).pdf" class="resume" download
+            >Resume</a
+          >
+        </div>
+        <!-- <div class="aboutLink">
           <a
             target="_blank"
             href="https://www.linkedin.com/in/hb-mubin-51b1392b4/"
@@ -67,8 +71,7 @@
           <a href="#"><i class="bx bxl-twitter"></i></a>
           <a target="_blank" href="https://github.com/hbmubin"
             ><i class="bx bxl-github"></i
-          ></a>
-        </div>
+          ></a> -->
       </div>
     </section>
     <!-- ABOUT SECTION END -->
@@ -81,6 +84,10 @@
         </h2>
         <div class="technologiesIcons">
           <div class="technologiesRow">
+            <div class="iconMask">
+              <img src="./asset/image/mongodb-icon.svg" alt="MongoDB" />
+              <h2 class="iconTitle">MongoDB</h2>
+            </div>
             <div class="iconMask">
               <img src="./asset/image/icons8-html-logo.svg" alt="HTML" />
               <h2 class="iconTitle">HTML</h2>
@@ -111,6 +118,10 @@
               <img src="./asset/image/icons8-react.svg" alt="React" />
               <h2 class="iconTitle reactTitle">React</h2>
             </div>
+            <div class="iconMask">
+              <img src="./asset/image/expressjs-icon.svg" alt="Express js" />
+              <h2 class="iconTitle">Express</h2>
+            </div>
           </div>
         </div>
       </div>
@@ -127,23 +138,39 @@
           <li class="projectItem">
             <div class="projectMask">
               <img
-                src="./asset/image/Screenshot 2023-12-27 203858.png"
-                alt="Online School Project"
+                src="./asset/image/Screenshot 2024-07-03 201236.png"
+                alt="Free Food Programme"
               />
               <div class="projectDescription">
-                <h2>Online School Project</h2>
-                <h3>HTML, CSS, Bootstrap</h3>
+                <h2>Food Programme Project</h2>
+                <h3>React, Tailwind, MongoDB, ExpressJs</h3>
                 <p>
-                  Transformed E-School's website with a modern, responsive
-                  design, ensuring an engaging user experience. The intuitive
-                  navigation and interactive homepage highlight the school's
-                  vibrant activities. Accessible news and updates foster
-                  seamless communication within the community
+                  Nourish4All connects food donors with those in need, featuring
+                  a responsive React-based platform with interactive UI
+                  components and secure JWT authentication.
                 </p>
-                <div class="projectLink">
-                  <a target="_blank" href="https://github.com/hbmubin"
-                    >See Product</a
-                  >
+                <div class="flex projectLinkBox gap-5">
+                  <div class="projectLink">
+                    <a
+                      target="_blank"
+                      href="https://nourish4all-assign-11.web.app"
+                      >Live Link</a
+                    >
+                  </div>
+                  <div class="projectLink">
+                    <a
+                      target="_blank"
+                      href="https://github.com/hbmubin/nourish4All-client-main-ph11.git"
+                      >Client repo</a
+                    >
+                  </div>
+                  <div class="projectLink">
+                    <a
+                      target="_blank"
+                      href="https://github.com/hbmubin/nourish4All-server-main-ph11.git"
+                      >Server repo</a
+                    >
+                  </div>
                 </div>
               </div>
             </div>
@@ -151,25 +178,38 @@
           <li class="projectItem">
             <div class="projectMask">
               <img
-                src="./asset/image/Screenshot 2023-12-27 204018.png"
-                alt="Online School Project"
+                src="./asset/image/Screenshot 2024-07-03 201212.png"
+                alt="Tourism Management"
               />
               <div class="projectDescription">
-                <h2>Developer Company Project</h2>
-                <h3>HTML, CSS, Bootstrap</h3>
+                <h2>Tourism Management Project</h2>
+                <h3>React, Tailwind, MongoDB, ExpressJs</h3>
                 <p>
-                  Elevated the online presence with a dynamic website showcasing
-                  cutting-edge design and seamless navigation. Integrated a
-                  responsive interface for optimal user experience on various
-                  devices. Featured a portfolio section highlighting the
-                  company's software solutions and expertise. Result: A visually
-                  appealing and user-friendly website that effectively
-                  represents project's capabilities.
+                  Tourism Nexus is a user-friendly web platform enabling
+                  exploration of tourist spots across South Asia, featuring
+                  secure user authentication, spot management, country
+                  categorization, and animated transitions.
                 </p>
-                <div class="projectLink">
-                  <a target="_blank" href="https://github.com/hbmubin"
-                    >See Product</a
-                  >
+                <div class="flex projectLinkBox gap-5">
+                  <div class="projectLink">
+                    <a target="_blank" href="https://tourism-nexus.netlify.app"
+                      >Live Link</a
+                    >
+                  </div>
+                  <div class="projectLink">
+                    <a
+                      target="_blank"
+                      href="https://github.com/hbmubin/tourismNexus-client-main-ph10.git"
+                      >Client repo</a
+                    >
+                  </div>
+                  <div class="projectLink">
+                    <a
+                      target="_blank"
+                      href="https://github.com/hbmubin/tourismNexus-server-main-ph10.git"
+                      >Server repo</a
+                    >
+                  </div>
                 </div>
               </div>
             </div>
@@ -177,26 +217,38 @@
           <li class="projectItem">
             <div class="projectMask">
               <img
-                src="./asset/image/Screenshot 2023-12-27 203947.png"
-                alt="Online School Project"
+                src="./asset/image/Screenshot 2024-07-03 201312.png"
+                alt="Real State Company Project"
               />
               <div class="projectDescription">
-                <h2>Software Company Project</h2>
-                <h3>HTML, CSS, Bootstrap</h3>
+                <h2>Real State Company Project</h2>
+                <h3>React, Tailwind, MongoDB, ExpressJs</h3>
                 <p>
-                  Crafted an immersive online experience by revamping their
-                  website with a sleek and responsive design. Implemented
-                  intuitive navigation, ensuring seamless exploration of the
-                  company's diverse software products. The site features a
-                  visually engaging showcase of product highlights, emphasizing
-                  the company's innovation. The result is a modern, user-centric
-                  website that effectively communicates the project's commitment
-                  to cutting-edge software solutions.
+                  Green Shelter is a comprehensive real estate platform
+                  simplifying property transactions and management. Discover,
+                  buy, sell, and manage properties effortlessly with our secure
+                  and feature-rich system.
                 </p>
-                <div class="projectLink">
-                  <a target="_blank" href="https://github.com/hbmubin"
-                    >See Product</a
-                  >
+                <div class="flex projectLinkBox gap-5">
+                  <div class="projectLink">
+                    <a target="_blank" href="https://greeen-shelter.web.app"
+                      >Live Link</a
+                    >
+                  </div>
+                  <div class="projectLink">
+                    <a
+                      target="_blank"
+                      href="https://github.com/hbmubin/greenShelter-client-main.git"
+                      >Client repo</a
+                    >
+                  </div>
+                  <div class="projectLink">
+                    <a
+                      target="_blank"
+                      href="https://github.com/hbmubin/greenShelter-server-main.git"
+                      >Server repo</a
+                    >
+                  </div>
                 </div>
               </div>
             </div>

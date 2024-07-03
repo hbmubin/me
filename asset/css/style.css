@@ -61,7 +61,8 @@ nav {
   display: flex;
   align-items: center;
 }
-.headerMenu ul li a {
+.headerMenu ul li a,
+.resume {
   margin: 0 1rem;
   font-weight: 700;
   color: var(--firstColor);
@@ -93,6 +94,41 @@ nav {
 }
 .contactLink:hover {
   background-color: var(--third);
+}
+.resume {
+  font-size: 16px !important;
+  color: rgb(63, 63, 63);
+  cursor: pointer;
+  margin: 0;
+}
+.resume::after {
+  content: "";
+  position: absolute;
+  height: 0.2rem;
+  width: 100%;
+  bottom: -10%;
+  right: 0;
+  background-color: var(--first);
+}
+.resume:hover {
+  color: blue;
+}
+.resume:hover::after {
+  width: 0;
+}
+.resume::before {
+  content: "";
+  position: absolute;
+  height: 0.2rem;
+  width: 0;
+  bottom: -10%;
+  right: 0;
+  background-color: blue;
+  transition: 0.3s;
+}
+.resume:hover::before {
+  width: 100%;
+  left: 0;
 }
 
 /* HEADER SECTON END */
@@ -190,6 +226,8 @@ nav {
   cursor: pointer;
   margin: 1.4rem 2.4rem;
   position: relative;
+  display: flex;
+  justify-content: center;
 }
 .iconMask img:hover {
   transform: scale(0.9);
@@ -199,7 +237,7 @@ nav {
   color: var(--first);
   font-size: 1.2rem;
   position: absolute;
-  bottom: -5%;
+  bottom: -10%;
   left: 50%;
   transform: translateX(-50%);
   transition: 0.3s;
@@ -215,8 +253,9 @@ nav {
   height: 7rem;
   width: 7rem;
 }
+
 .reactTitle {
-  bottom: -10%;
+  bottom: -20%;
 }
 /* TECHNOLOGIES SECTION END */
 
@@ -288,8 +327,10 @@ nav {
   text-align: justify;
   margin-right: 3rem;
 }
-.projectLink a {
+.projectLinkBox {
   margin-left: 4rem;
+}
+.projectLink a {
   color: #ffffff;
   display: inline-block;
   padding: 3px 4px;
@@ -305,7 +346,7 @@ nav {
   position: absolute;
   height: 0.2rem;
   width: 100%;
-  bottom: -20%;
+  bottom: -5%;
   right: 0;
   background-color: #ffffff;
 }
@@ -317,7 +358,7 @@ nav {
   position: absolute;
   height: 0.2rem;
   width: 0;
-  bottom: -20%;
+  bottom: -5%;
   right: 0;
   background-color: blue;
   transition: 0.3s;
@@ -406,7 +447,7 @@ nav {
     margin-top: 0.6rem;
     margin-left: 1rem;
   }
-  .projectLink a {
+  .projectLinkBox {
     font-size: 0.9rem;
     margin-left: 1rem;
   }
