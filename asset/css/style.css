@@ -95,41 +95,6 @@ nav {
 .contactLink:hover {
   background-color: var(--third);
 }
-.resume {
-  font-size: 16px !important;
-  color: rgb(63, 63, 63);
-  cursor: pointer;
-  margin: 0;
-}
-.resume::after {
-  content: "";
-  position: absolute;
-  height: 0.2rem;
-  width: 100%;
-  bottom: -10%;
-  right: 0;
-  background-color: var(--first);
-}
-.resume:hover {
-  color: blue;
-}
-.resume:hover::after {
-  width: 0;
-}
-.resume::before {
-  content: "";
-  position: absolute;
-  height: 0.2rem;
-  width: 0;
-  bottom: -10%;
-  right: 0;
-  background-color: blue;
-  transition: 0.3s;
-}
-.resume:hover::before {
-  width: 100%;
-  left: 0;
-}
 
 /* HEADER SECTON END */
 
@@ -187,6 +152,42 @@ nav {
 }
 .aboutLink a:hover {
   color: var(--forth);
+}
+
+.resume {
+  font-size: 16px !important;
+  color: rgb(63, 63, 63);
+  cursor: pointer;
+  margin: 0;
+}
+.resume::after {
+  content: "";
+  position: absolute;
+  height: 0.2rem;
+  width: 100%;
+  bottom: -10%;
+  right: 0;
+  background-color: var(--first);
+}
+.resume:hover {
+  color: blue;
+}
+.resume:hover::after {
+  width: 0;
+}
+.resume::before {
+  content: "";
+  position: absolute;
+  height: 0.2rem;
+  width: 0;
+  bottom: -10%;
+  right: 0;
+  background-color: blue;
+  transition: 0.3s;
+}
+.resume:hover::before {
+  width: 100%;
+  left: 0;
 }
 /* ABOUT SECTION END */
 

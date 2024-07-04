@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="./asset/css/style.css" />
   </head>
   <body>
-    <!-- HEADER SECTON START -->
+    <!-- HEADER SECTION START -->
     <section class="headerSection">
       <div class="headerContainer">
         <nav>
@@ -31,16 +31,16 @@
               </li>
               <li><a class="projectsLink" href="#projects">Project</a></li>
               <li>
-                <a class="contactLink">Contact</a>
+                <a class="contactLink" href="#contact">Contact</a>
               </li>
             </ul>
           </div>
         </nav>
       </div>
     </section>
-    <!-- HEADER SECTON END -->
+    <!-- HEADER SECTION END -->
     <!-- ABOUT SECTION START -->
-    <section class="aboutSection" id="about">
+    <section class="aboutSection pt-28 pb-14" id="about">
       <div class="aboutContainer">
         <div class="aboutImageMask">
           <img
@@ -57,12 +57,7 @@
           code and continuous learning, I deLive Linkr high-quality software
           solutions.
         </p>
-        <div>
-          <a href="./asset/Hasanul banna mubin (1).pdf" class="resume" download
-            >Resume</a
-          >
-        </div>
-        <!-- <div class="aboutLink">
+        <div class="aboutLink">
           <a
             target="_blank"
             href="https://www.linkedin.com/in/hb-mubin-51b1392b4/"
@@ -71,7 +66,13 @@
           <a href="#"><i class="bx bxl-twitter"></i></a>
           <a target="_blank" href="https://github.com/hbmubin"
             ><i class="bx bxl-github"></i
-          ></a> -->
+          ></a>
+        </div>
+        <div>
+          <a href="./asset/Hasanul banna mubin (1).pdf" class="resume" download
+            >Resume</a
+          >
+        </div>
       </div>
     </section>
     <!-- ABOUT SECTION END -->
@@ -178,36 +179,32 @@
           <li class="projectItem">
             <div class="projectMask">
               <img
-                src="./asset/image/Screenshot 2024-07-03 201212.png"
-                alt="Tourism Management"
+                src="./asset/image/Screenshot 2024-07-03 211125.png"
+                alt="Restaurant Management"
               />
               <div class="projectDescription">
-                <h2>Tourism Management Project</h2>
-                <h3>React, Tailwind, MongoDB, ExpressJs</h3>
+                <h2>Restaurant Management Project</h2>
+                <h3>Vanilla CSS, Javascript</h3>
                 <p>
-                  Tourism Nexus is a user-friendly web platform enabling
-                  exploration of tourist spots across South Asia, featuring
-                  secure user authentication, spot management, country
-                  categorization, and animated transitions.
+                  MasterCook is an online culinary platform offering a variety
+                  of cooking classes, educational resources, and culinary
+                  merchandise to help users become master chefs from their
+                  homes. It provides a comprehensive culinary education, event
+                  food planning, and fresh organic food options.
                 </p>
                 <div class="flex projectLinkBox gap-5">
                   <div class="projectLink">
-                    <a target="_blank" href="https://tourism-nexus.netlify.app"
+                    <a
+                      target="_blank"
+                      href="https://dainty-croissant-26db9e.netlify.app/"
                       >Live Link</a
                     >
                   </div>
                   <div class="projectLink">
                     <a
                       target="_blank"
-                      href="https://github.com/hbmubin/tourismNexus-client-main-ph10.git"
-                      >Client repo</a
-                    >
-                  </div>
-                  <div class="projectLink">
-                    <a
-                      target="_blank"
-                      href="https://github.com/hbmubin/tourismNexus-server-main-ph10.git"
-                      >Server repo</a
+                      href="https://github.com/hbmubin/masterCook.git"
+                      >Github repo</a
                     >
                   </div>
                 </div>
@@ -257,6 +254,81 @@
       </div>
     </div>
     <!-- PROJECT SECTION END -->
+    <!-- CONTACT SECTION START -->
+    <div
+      class="contactSection min-h-screen my-10 lg:my-0 flex items-center justify-center"
+      id="contact"
+    >
+      <div class="projectContainer lg:flex items-center justify-between gap-20">
+        <div class="mb-10 lg:mb-0">
+          <h2
+            class="md:text-5xl text-4xl font-semibold text-nowrap tracking-wide leading-tight"
+          >
+            Let's chat. <br />
+            me about your <br />
+            project
+          </h2>
+          <p class="mt-5 mb-8 text-md font-medium text-gray-600">
+            Let's create something together 🤟
+          </p>
+          <div
+            class="flex font-semibold items-center lg:justify-center shadow rounded-xl gap-4 py-3 px-5"
+          >
+            <div class="text-3xl bg-gray-100 px-2 text-gray-600 rounded">
+              <i class="bx bx-envelope"></i>
+            </div>
+            <div>
+              <p>Mail me at</p>
+              <p class="text-teal-600">hasanulbannamubin01@gmail.com</p>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="p-10 rounded-xl border-2">
+            <h2 class="text-2xl font-semibold mb-4">Send us a message</h2>
+            <form
+              action="https://formsubmit.co/hasanulbannamubin01@gmail.com"
+              method="POST"
+            >
+              <input
+                class="w-full rounded-xl bg-gray-50 py-3 px-5 mt-4"
+                type="text"
+                name="name"
+                required
+                placeholder="Full Name*"
+              />
+              <input
+                class="w-full rounded-xl bg-gray-50 py-3 px-5 mt-4"
+                type="email"
+                name="email"
+                required
+                placeholder="Email Address*"
+              />
+              <input
+                class="w-full rounded-xl bg-gray-50 py-3 px-5 mt-4"
+                type="text"
+                name="subject"
+                required
+                placeholder="Subject*"
+              />
+              <p></p>
+              <textarea
+                class="w-full rounded-xl bg-gray-50 py-3 px-5 mt-4"
+                name="msg"
+                placeholder="Your Message*"
+                required
+              ></textarea>
+              <input type="hidden" name="_captcha" value="false" />
+              <input type="hidden" name="_template" value="table" />
+              <button type="submit" class="contactLink mt-3 font-semibold">
+                Send Message
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- CONTACT SECTION END -->
     <!-- FOOTER SECTION START -->
     <footer class="footerSection">
       <div class="footerContainer">
