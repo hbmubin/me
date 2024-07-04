@@ -29,6 +29,7 @@
                   >Technologies</a
                 >
               </li>
+              <li><a class="projectsLink" href="#education">Education</a></li>
               <li><a class="projectsLink" href="#projects">Project</a></li>
               <li>
                 <a class="contactLink" href="#contact">Contact</a>
@@ -78,7 +79,7 @@
     <!-- ABOUT SECTION END -->
 
     <!-- TECHNOLOGIES SECTION START -->
-    <div class="technologiesSection" id="technologies">
+    <section class="technologiesSection" id="technologies">
       <div class="technologiesContainer">
         <h2 class="technologiesTitle">
           This is my <span>technology stack</span>
@@ -126,11 +127,85 @@
           </div>
         </div>
       </div>
-    </div>
+    </section>
     <!-- TECHNOLOGIES SECTION END -->
-
     <!-- PROJECT SECTION START -->
-    <div class="projectSection" id="projects">
+    <section class="educationSection py-20" id="education">
+      <div class="projectContainer my-auto">
+        <h2 class="technologiesTitle text-center">
+          This is my <span>academic journey</span>
+        </h2>
+        <div>
+          <div class="mb-8">
+            <h2 class="text-2xl">
+              Complete Web Development Course With Jhankar Mahbub
+            </h2>
+            <div class="flex gap-2 m-4">
+              <span
+                ><img
+                  class="w-7 rounded-full"
+                  src="./asset/image/programming-hero.jpg"
+              /></span>
+              <h3 class="text-lg">Programming Hero</h3>
+            </div>
+            <div>
+              <span
+                class="bg-gray-100 mx-2 inline-block mb-3 md:mb-0 px-2 py-1 rounded-md"
+                >Javascript</span
+              >
+              <span
+                class="bg-gray-100 mx-2 inline-block mb-3 md:mb-0 px-2 py-1 rounded-md"
+                >React</span
+              >
+              <span
+                class="bg-gray-100 mx-2 inline-block mb-3 md:mb-0 px-2 py-1 rounded-md"
+                >Express js</span
+              >
+              <span class="bg-gray-100 mx-2 px-2 py-1 rounded-md">MongoDB</span>
+              <span class="bg-gray-100 mx-2 px-2 py-1 rounded-md"
+                >Tailwind</span
+              >
+            </div>
+          </div>
+          <div class="mb-8">
+            <h2 class="text-2xl">Responsive Web Design & Development</h2>
+            <div class="flex gap-2 m-4">
+              <span
+                ><img
+                  class="w-7 rounded-full"
+                  src="./asset/image/coderstrust.png"
+              /></span>
+              <h3 class="text-lg">CodersTrust Bangladesh</h3>
+            </div>
+            <div>
+              <span class="bg-gray-100 mx-2 px-2 py-1 rounded-md">HTML</span>
+              <span class="bg-gray-100 mx-2 px-2 py-1 rounded-md">CSS</span>
+              <span class="bg-gray-100 mx-2 px-2 py-1 rounded-md"
+                >Bootstrap</span
+              >
+            </div>
+          </div>
+          <div>
+            <h2 class="text-2xl">
+              BA (Hons) Arts <span class="text-lg">( 2023 - Current )</span>
+            </h2>
+            <div class="flex gap-2 m-4">
+              <span
+                ><img class="w-6" src="./asset/image/Dhaka_University_logo.svg"
+              /></span>
+              <h3 class="text-lg">University of Dhaka</h3>
+            </div>
+            <div>
+              <span class="bg-gray-100 mx-2 px-2 py-1 rounded-md"
+                >Arabic Language & literature</span
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- PROJECT SECTION START -->
+    <section class="projectSection" id="projects">
       <div class="projectContainer">
         <div class="projectTitle">
           <h2>Here are some of my <span>projects</span></h2>
@@ -252,17 +327,17 @@
           </li>
         </ul>
       </div>
-    </div>
+    </section>
     <!-- PROJECT SECTION END -->
     <!-- CONTACT SECTION START -->
-    <div
+    <section
       class="contactSection min-h-screen my-10 lg:my-0 flex items-center justify-center"
       id="contact"
     >
       <div class="projectContainer lg:flex items-center justify-between gap-20">
         <div class="mb-10 lg:mb-0">
           <h2
-            class="md:text-5xl text-4xl font-semibold text-nowrap tracking-wide leading-tight"
+            class="md:text-5xl text-4xl text-nowrap tracking-wide leading-tight"
           >
             Let's chat. <br />
             me about your <br />
@@ -272,7 +347,7 @@
             Let's create something together 🤟
           </p>
           <div
-            class="flex font-semibold items-center lg:justify-center shadow rounded-xl gap-4 py-3 px-5"
+            class="flex items-center lg:justify-center shadow rounded-xl gap-4 py-3 px-5"
           >
             <div class="text-3xl bg-gray-100 px-2 text-gray-600 rounded">
               <i class="bx bx-envelope"></i>
@@ -285,7 +360,7 @@
         </div>
         <div>
           <div class="p-10 rounded-xl border-2">
-            <h2 class="text-2xl font-semibold mb-4">Send us a message</h2>
+            <h2 class="text-2xl mb-4">Send us a message</h2>
             <form
               action="https://formsubmit.co/hasanulbannamubin01@gmail.com"
               method="POST"
@@ -327,12 +402,32 @@
           </div>
         </div>
       </div>
-    </div>
+    </section>
     <!-- CONTACT SECTION END -->
     <!-- FOOTER SECTION START -->
     <footer class="footerSection">
-      <div class="footerContainer">
-        <p>All Right Reserved by <span>HB Mubin</span></p>
+      <div class="footerContainer pt-10 pb-4">
+        <div class="text-center text-xl mb-4">
+          <a
+            class="bg-gray-200 mx-2 hover:text-gray-600 duration-300 py-1 px-[6px] rounded-full"
+            target="_blank"
+            href="https://www.linkedin.com/in/hb-mubin-51b1392b4/"
+            ><i class="bx bxl-linkedin"></i
+          ></a>
+          <a
+            class="bg-gray-200 mx-2 hover:text-gray-600 duration-300 py-1 px-[6px] rounded-full"
+            target="_blank"
+            href="https://x.com/HbMubin"
+            ><i class="bx bxl-twitter"></i
+          ></a>
+          <a
+            class="bg-gray-200 mx-2 hover:text-gray-600 duration-300 py-1 px-[6px] rounded-full"
+            target="_blank"
+            href="https://github.com/hbmubin"
+            ><i class="bx bxl-github"></i
+          ></a>
+        </div>
+        <p class="text-sm">All Right Reserved by <span>HB Mubin</span></p>
       </div>
     </footer>
     <!-- FOOTER SECTION END -->

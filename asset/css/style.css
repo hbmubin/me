@@ -24,7 +24,7 @@ a {
 img {
   width: 100%;
 }
-/* HEADER SECTON START */
+/* HEADER SECTION START */
 .headerSection {
   height: 5rem;
   width: 100%;
@@ -96,7 +96,7 @@ nav {
   background-color: var(--third);
 }
 
-/* HEADER SECTON END */
+/* HEADER SECTION END */
 
 /* ABOUT SECTION START */
 .aboutSection {
@@ -261,9 +261,12 @@ nav {
 /* TECHNOLOGIES SECTION END */
 
 /* PROJECT SECTION START */
+.projectSection {
+  background-color: var(--fifth);
+}
 .projectContainer {
   max-width: 900px;
-  margin: 0 auto;
+  margin: auto;
 }
 .projectTitle {
   padding: 2rem 0;
@@ -372,7 +375,6 @@ nav {
 
 /* FOOTER SECTION START */
 .footerSection {
-  height: 5rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -384,6 +386,7 @@ nav {
 .footerContainer p span {
   font-weight: 700;
 }
+
 /* FOOTER SECTION START */
 
 /* RESPONSIVE START */
